@@ -1,0 +1,15 @@
+{
+  "name": "ragent",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev -- --host 127.0.0.1 --port 5173",
+    "dev:open": "npm run dev -- --open",
+    "frontend:install": "npm --prefix frontend install",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:lint": "npm --prefix frontend run lint",
+    "frontend:format": "npm --prefix frontend run format",
+    "frontend:preview": "npm --prefix frontend run preview",
+    "backend:dev": "./mvnw -pl bootstrap -am spring-boot:run"
+  }
+}
